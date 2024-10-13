@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+
+union Data{
+    int a;
+    float b;
+    char str[30];
+};
+
+int main(){
+
+    union Data data;
+
+    printf("By occupied the data here is the memory size : %d\n", sizeof(data));
+
+    getchar();
+    return 0;
+        
+};
+
+
+// stop program Alt+Ctrl+m
